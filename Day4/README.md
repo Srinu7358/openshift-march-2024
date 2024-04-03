@@ -225,6 +225,9 @@ oc get route
 
 Now from the webconsole --> Developer context -> topology you can click on the route link(arrow point upward) to access the route public url to see the web page.
 
+delete source service::
+oc delete imagestream.image.openshift.io spring-ms
+
 
 ## Lab - Deploying an appliction from github using Docker strategy from CLI
 ```
